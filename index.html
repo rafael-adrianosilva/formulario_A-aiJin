@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>FORMULARIO SUPERAÇAIJIN</h1>
+
+    <form>
+        <fieldset id="Dados">
+            <legend>Dados pessoais:</legend>
+            Nome: <input type="text" name="nome" id="nom" required>
+            <br><br>
+            Idade: <input type="number" name="idade" id="age" required>
+            <br><br>
+            Telefone: <input type="tel" name="Telefone" id="telef" required>
+            <br><br>
+            Endereço: <input type="text" name="End" id="Endereco" required>
+            <br><br>
+            Planeta de Origem: <select name="Planeta" required>
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+                <option>Planeta Senhor Kaioh</option>
+                <option>Planeta Kaiohshin</option>
+                <option>Outros</option>
+            </select>
+        </fieldset>
+        <fieldset id="Dados2">
+            <legend>Dados extras</legend>
+            Raça do Universo 7 preferida: <select name="Raca" id="Racas" min="1">
+                <option>Terráqueo</option required>
+                <option>Android</option required>
+                <option>Saiyajin</option required>
+                <option>Namekuseijin</option required>
+                <option>Majin</option>
+                <option>Freeza</option>
+                <option>Shin-jin</option>
+                <option>Outros</option>
+            </select>
+            <br><br>
+            trabalho: <input type="radio" value="Autonomo" name="q" required> Autônomo
+            <input type="radio" value="CLT" name="q" required> Empregado CLT
+            <input type="radio" value="Empresario" name="q" required> Empresário
+            <input type="radio" value="Goku" name="q" required> Tipo Goku
+        </fieldset>
+        <br>
+        <fieldset id="pergunta"  required>
+            <legend>Seu açaí é perfeito de que jeito?</legend>
+            <input type="checkbox" name="Puro" name="c"> Puro
+            <input type="checkbox" name="Banana" name="c"> Com Banana
+            <input type="checkbox" name="Morango" name="c"> Com morango
+            <input type="checkbox" name="Granola" name="c"> Com Granola
+            <input type="checkbox" name="Terra" name="c"> Tem gosto de Terra
+        </fieldset>
+        <br>
+        <fieldset id="tamanho">
+            <input type="radio" value="500ml" name="q"> 500ml
+            <input type="radio" value="300ml" name="q"> 300ml
+            <input type="radio" value="100ml" name="q"> 100ml
+            <input type="radio" value="Casquinha" name="q"> Casquinha
+            <input type="radio" value="terroso" name="q"> Qual parte do gosto de terra voce não entendeu?
+        </fieldset>
+        <br>
+        <fieldset>
+            Observações:<br><textarea style="height: 70px; width: 900px;">Escreva suas observações... Eu gosto de açaí porque...</textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Limpar">
+    </form>
+    
+</body>
+
+</html>
