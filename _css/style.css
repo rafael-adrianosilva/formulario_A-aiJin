@@ -37,3 +37,11 @@ input[type="number"]{
 input[type="tel"]{
     width: 65%;
 }
+
+.button{
+    background: #9932CC;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
