@@ -1,0 +1,34 @@
+body{
+    background-color: purple;
+}
+
+table, th, td{
+    border: 3px solid #BBB;
+}
+
+td{
+    border: 1px solid #BBB;
+}
+
+td{
+    background-color: aliceblue;
+}
+
+th {
+    background-color: azure;
+}
+
+table {
+    width: 100%;
+}
+
+tr{
+    height: 50px;
+}
+
+.goku {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+}
