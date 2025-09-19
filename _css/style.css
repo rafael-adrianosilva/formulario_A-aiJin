@@ -26,19 +26,25 @@ fieldset {
     color: white;
 }
 
-input[type="text"]{
+input[type="number"], input[type="tel"], input[type="text"]{
     width: 65%;
+    border-radius: 9px;
+    border: none;
 }
 
-input[type="number"]{
-    width: 65%;
-}
-
-input[type="tel"]{
-    width: 65%;
+input[type=text]:focus, input[type=number]:focus, input[type=tel]:focus{
+    background-color: lightpink;
 }
 
 .button{
+    background: #9932CC;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=button]{
     background: #9932CC;
     color: black;
     border: none;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="_css/style.css">
     <title>Document</title>
 </head>
+<script src="_js/formulario2.js"></script>
 
 <body>
     <h1>FORMULARIO SUPERAÇAIJIN</h1>
@@ -14,7 +15,7 @@
     <form>
         <fieldset id="Dados">
             <legend>Dados pessoais:</legend>
-            Nome: <input type="text" name="nome" id="nom" required>
+            Nome: <input type="text" name="nome" id="nome" required>
             <br><br>
             Idade: <input type="number" name="idade" id="age" required>
             <br><br>
@@ -22,7 +23,7 @@
             <br><br>
             Endereço: <input type="text" name="End" id="Endereco" required>
             <br><br>
-            Planeta de Origem: <select name="Planeta" required>
+            Planeta de Origem: <select name="Planeta" id="planeta" required>
                 <option>Planeta Terra</option>
                 <option>Planeta Namek</option>
                 <option>Planeta Vegeta</option>
@@ -44,10 +45,10 @@
                 <option>Outros</option>
             </select>
             <br><br>
-            trabalho: <input type="radio" value="Autonomo" name="q" required> Autônomo
-            <input type="radio" value="CLT" name="q" required> Empregado CLT
-            <input type="radio" value="Empresario" name="q" required> Empresário
-            <input type="radio" value="Goku" name="q" required> Tipo Goku
+            Trabalho: <input type="radio" value="Autonomo" name="q" id="queue" required> Autônomo
+                <input type="radio" value="CLT" name="q" id="queue" required> Empregado CLT
+                <input type="radio" value="Empresario" name="q" id="queue" required> Empresário
+                <input type="radio" value="Goku" name="q" id="queue" required> Tipo Goku
         </fieldset>
         <br>
         <fieldset id="pergunta" required>
@@ -72,9 +73,15 @@
                 style="height: 70px; width: 900px;">Escreva suas observações... Eu gosto de açaí porque...</textarea>
         </fieldset>
         <br>
+<<<<<<< HEAD
+        <input class="button" type="submit" value="Enviar">
+        <input class="button" type="reset" value="Limpar">
+        <input type="button" onclick="json()" value="Gerar JSON">
+=======
             <input class="button" type="submit" value="Enviar">
             <input class="button" type="reset" value="Limpar">
             <input class="button" type="button" onclick="window.open('pedido.html')" value="Faça seu Pedido aqui!">
+>>>>>>> 620bbdc2692d06e93247f23662b9a4c4c75b6f18
     </form>
 
 </body>
